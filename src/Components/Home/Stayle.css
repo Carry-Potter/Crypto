@@ -1,0 +1,37 @@
+/* Stayle.css */
+
+/* Stilizacija tabele */
+
+
+
+
+/* Stilizacija Lottie animacije */
+#lottie-container {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+/* Stilizacija "Loading..." poruke */
+p {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Responsive stilizacija */
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+
+  .table thead th,
+  .table tbody td {
+    padding: 6px;
+  }
+
+  #lottie-container {
+    max-width: 200px;
+    height: 200px;
+  }
+}

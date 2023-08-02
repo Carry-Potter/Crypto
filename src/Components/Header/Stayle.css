@@ -1,0 +1,38 @@
+/* Stayle.css */
+
+/* Stilizacija headera */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Tamno siva pozadina */
+    color: #fff; /* Bela boja teksta */
+    padding: 16px;
+  }
+  
+  /* Stilizacija dugmeta "Login" */
+  button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Stilizacija teksta "You are logged in!" */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Stilizacija naslova "CRYPTO EXCHANGE" */
+  
+  
+  /* Responsive stilizacija */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  

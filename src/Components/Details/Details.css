@@ -1,0 +1,61 @@
+/* Style.css */
+
+/* Stilizacija glavnog kontejnera */
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  
+  h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+ 
+  /* Stilizacija tabele */
+  
+  
+  /* Stilizacija dugmeta za dodavanje/uklanjanje iz omiljenih */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Stilizacija animacije */
+  #lottie-container {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    transform: rotate(90deg);
+    transform-origin: top left;
+  }
+  
+  /* Stilizacija poruke "Invalid symbol" */
+  .invalid-symbol {
+    font-style: italic;
+    color: #dc3545;
+  }
+  
+  /* Stilizacija poruke "Loading..." */
+  .loading {
+    font-style: italic;
+    color: #6c757d;
+  }
+  
+  /* Stilizacija responsive layout-a */
+  @media (max-width: 768px) {
+    .table {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
+  

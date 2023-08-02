@@ -1,0 +1,50 @@
+* Stilizacija tabele */
+
+
+.table td {
+  text-align: center;
+}
+
+/* Stilizacija dugmeta za uklanjanje simbola iz omiljenih */
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Stilizacija poruke kada nema dodatih omiljenih simbola */
+.no-favorites {
+  font-style: italic;
+  margin-top: 10px;
+  color: #6c757d;
+}
+
+/* Stilizacija glavnog kontejnera */
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* Stilizacija naslova */
+
+
+/* Stilizacija poruke "Loading..." */
+.loading {
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Stilizacija responsive layout-a */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
