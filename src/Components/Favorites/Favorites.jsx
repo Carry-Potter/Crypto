@@ -66,7 +66,7 @@ const TickerRow = ({ symbol, removeFavorite }) => {
 
   return (
     <tr>
-      <td>{symbol && symbol.toUpperCase()}</td>
+      <td style={{ fontWeight: 'bold', color: '#1bd1fa', textDecoration: 'none', fontSize: '16px', textAlign: 'center' }}>{symbol && symbol.toUpperCase()}</td>
       {tickerData ? (
         
         <>
